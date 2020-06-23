@@ -34,7 +34,8 @@ public class GettingAndStoringUserInput {
         System.out.println("City:");
         city = input.nextLine();
 
-        System.out.println(firstName + " " + lastName + " " + houseNumber + " " + streetName + " " + streetType + " " + city);
+        System.out.println(firstName + " " + lastName + " " + houseNumber + " ");
+        System.out.println(streetName + " " + streetType + " " + city);
 
 
     }
