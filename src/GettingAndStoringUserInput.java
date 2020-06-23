@@ -10,6 +10,7 @@ public class GettingAndStoringUserInput {
         String lastName;
         int houseNumber;
         String streetName;
+        String streetType;
         String city;
 
 //        GETTING INPUT
@@ -27,10 +28,13 @@ public class GettingAndStoringUserInput {
         System.out.println("Street name:");
         streetName = input.nextLine();
 
+        System.out.println("Street type:");
+        streetType = input.nextLine();
+
         System.out.println("City:");
         city = input.nextLine();
 
-        System.out.println(firstName + " " + lastName + " " + houseNumber + " " + streetName + " " + city);
+        System.out.println(firstName + " " + lastName + " " + houseNumber + " " + streetName + " " + streetType + " " + city);
 
 
     }
